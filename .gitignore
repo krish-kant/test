@@ -6,8 +6,8 @@ yarn-error.log*
 package-lock.json
 
 # Build output
-dist/
-build/
+# dist/
+# build/
 
 # IDE and Editor files
 .idea/
