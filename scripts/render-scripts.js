@@ -6,7 +6,7 @@ const sh = require('shelljs');
 
 module.exports = function renderScripts() {
     const sourcePath = path.resolve(path.dirname(__filename), '../src/js/scripts.js');
-    const destPath = path.resolve(path.dirname(__filename), '../dist/js/scripts.js');
+    const destPath = path.resolve(path.dirname(__filename), '../docs/js/scripts.js');
     
     const copyright = `/*!
     * Start Bootstrap - ${packageJSON.title} v${packageJSON.version} (${packageJSON.homepage})

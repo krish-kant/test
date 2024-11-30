@@ -1,7 +1,11 @@
 const sh = require('shelljs');
 const path = require('path');
 
-const destPath = path.resolve(path.dirname(__filename), '../dist');
+const docsPath = path.resolve(path.dirname(__filename), '../docs');
+const distPath = path.resolve(path.dirname(__filename), '../dist');
 
-sh.rm('-rf', `${destPath}/*`)
+// Remove docs directory
+sh.rm('-rf', docsPath);
 
+// Remove dist directory
+sh.rm('-rf', distPath);
